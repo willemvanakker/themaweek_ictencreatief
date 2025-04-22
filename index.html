@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KledingBewust - Campagne tegen Kledingverspilling</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+        }
+        
+        .feature-box {
+            padding: 30px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigatiebalk -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><span class="text-warning">Kleding</span>Bewust</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#over-ons">Over Ons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tips">Kleding Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inspiratie">Inspiratie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Sectie -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Mode Zonder Verspilling</h1>
+            <p class="lead mb-5">Ontdek hoe jouw kledingkeuzes een positieve impact kunnen hebben op mensen en planeet.</p>
+            <a href="#over-ons" class="btn btn-success btn-lg me-2">Meer Informatie</a>
+            <a href="#tips" class="btn btn-outline-light btn-lg">Onze Tips</a>
+        </div>
+    </section>
+
+    <!-- Over Ons Sectie -->
+    <section id="over-ons" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-4">Over Onze Campagne</h2>
+                    <p class="lead">KledingBewust is een initiatief om kledingverspilling tegen te gaan en duurzame modekeuzes te stimuleren.</p>
+                    <p>Wist je dat er wereldwijd jaarlijks zo'n 92 miljoen ton textielafval wordt geproduceerd? Fast fashion heeft een enorme impact op het milieu, van waterverbruik tot CO2-uitstoot.</p>
+                    <p>Onze campagne biedt praktische tips, inspiratie en informatie om je te helpen bewustere keuzes te maken in je garderobe. Samen kunnen we de levensduur van kleding verlengen en de textielindustrie verduurzamen.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/600/400" alt="Duurzame Mode" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voordelen Sectie -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Waarom Bewust met Kleding Omgaan?</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center bg-white h-100">
+                        <div class="feature-icon text-success">
+                            🌍
+                        </div>
+                        <h3 class="h4 mb-3">Beter voor het Milieu</h3>
+                        <p>Door langer met je kleding te doen, bespaar je water, verminder je CO2-uitstoot en verklein je de afvalberg.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center bg-white h-100">
+                        <div class="feature-icon text-success">
+                            👥
+                        </div>
+                        <h3 class="h4 mb-3">Betere Arbeidsomstandigheden</h3>
+                        <p>Duurzame mode gaat vaak hand in hand met eerlijke arbeidsomstandigheden voor kledingarbeiders wereldwijd.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box text-center bg-white h-100">
+                        <div class="feature-icon text-success">
+                            💰
+                        </div>
+                        <h3 class="h4 mb-3">Beter voor je Portemonnee</h3>
+                        <p>Investeren in kwaliteitskleding, repareren en tweedehands kopen bespaart op de lange termijn veel geld.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Sectie -->
+    <section id="tips" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Praktische Tips tegen Kledingverspilling</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title h4">Koop Bewust & Minder</h3>
+                            <p class="card-text">Kies voor kwaliteit boven kwantiteit. Stel jezelf de vraag: "Ga ik dit minstens 30 keer dragen?" voordat je iets nieuws koopt. Maak een lijstje voor je gaat winkelen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title h4">Repareer & Hergebruik</h3>
+                            <p class="card-text">Leer basistechnieken om kleding te repareren of laat het doen door een professional. Een losse knoop of kleine scheur betekent niet het einde van je kledingstuk!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title h4">Tweedehands & Vintage</h3>
+                            <p class="card-text">Ontdek de wereld van tweedehands kleding, vintage winkels en kledingbibliotheek. Unieke stukken met karakter én beter voor het milieu!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h3 class="card-title h4">Capsule Garderobe</h3>
+                            <p class="card-text">Creëer een capsule garderobe met tijdloze items die je goed kunt combineren. Minder items, meer outfits, minder stress bij het kiezen!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inspiratie Sectie -->
+    <section id="inspiratie" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Creatieve Inspiratie</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="/api/placeholder/400/300" class="card-img-top" alt="Inspiratie 1">
+                        <div class="card-body">
+                            <h3 class="card-title h5">T-shirt Upcycling</h3>
+                            <p class="card-text">Transformeer oude t-shirts in hippe tassen, kussens of zelfs nieuwe kledingstukken.</p>
+                            <a href="#" class="btn btn-sm btn-success">Bekijk Ideeën</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="/api/placeholder/400/300" class="card-img-top" alt="Inspiratie 2">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Kleding Ruildagen</h3>
+                            <p class="card-text">Organiseer je eigen kledingruil met vrienden, familie of collega's.</p>
+                            <a href="#" class="btn btn-sm btn-success">Handleiding</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="/api/placeholder/400/300" class="card-img-top" alt="Inspiratie 3">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Duurzame Merken</h3>
+                            <p class="card-text">Ontdek onze selectie van eerlijke en duurzame kledingmerken.</p>
+                            <a href="#" class="btn btn-sm btn-success">Bekijk Lijst</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-success">Meer Inspiratie</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feiten & Cijfers -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">De Impact van Fast Fashion</h2>
+            <div class="row">
+                <div class="col-md-3 col-6 mb-4 text-center">
+                    <div class="display-4 text-success fw-bold">92M</div>
+                    <p>ton textielafval per jaar wereldwijd</p>
+                </div>
+                <div class="col-md-3 col-6 mb-4 text-center">
+                    <div class="display-4 text-success fw-bold">2700L</div>
+                    <p>water voor één katoenen t-shirt</p>
+                </div>
+                <div class="col-md-3 col-6 mb-4 text-center">
+                    <div class="display-4 text-success fw-bold">10%</div>
+                    <p>van de wereldwijde CO2-uitstoot door mode-industrie</p>
+                </div>
+                <div class="col-md-3 col-6 mb-4 text-center">
+                    <div class="display-4 text-success fw-bold">30%</div>
+                    <p>van gekochte kleding wordt nooit gedragen</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Wat Mensen Zeggen</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial">
+                        <p class="mb-3">"Door mijn kledingkast op te ruimen en een capsule garderobe te maken, bespaar ik zoveel tijd en stress. En ik koop minder impulsief!"</p>
+                        <p class="fw-bold mb-0">- Lisa, Rotterdam</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial">
+                        <p class="mb-3">"Sinds ik tweedehands shop, vind ik de meest unieke items die niemand anders heeft. Het is verslavend leuk én duurzamer!"</p>
+                        <p class="fw-bold mb-0">- Jaap, Utrecht</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial">
+                        <p class="mb-3">"Ik heb leren naaien en kan nu zelf kleine reparaties doen. Mijn lievelingsjeans gaat nu jaren langer mee. Win-win!"</p>
+                        <p class="fw-bold mb-0">- Fatima, Eindhoven</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-success text-white py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Doe Mee Met Onze Campagne!</h2>
+            <p class="lead mb-4">Meld je aan voor onze nieuwsbrief en ontvang maandelijks tips, inspiratie en updates over duurzame mode.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Je e-mailadres">
+                            <button class="btn btn-warning" type="button">Aanmelden</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Sectie -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Neem Contact Op</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Naam</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Bericht</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Versturen</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="h4 mb-3">Contactgegevens</h3>
+                    <p><strong>E-mail:</strong> info@kledingbewust.nl</p>
+                    <p><strong>Telefoon:</strong> 020-1234567</p>
+                    <p><strong>Adres:</strong> Textielstraat 123, 1234 AB Amsterdam</p>
+                    <h3 class="h4 mb-3 mt-4">Volg Ons</h3>
+                    <div class="d-flex">
+                        <a href="#" class="me-3 text-dark fs-4">📱</a>
+                        <a href="#" class="me-3 text-dark fs-4">📘</a>
+                        <a href="#" class="me-3 text-dark fs-4">📸</a>
+                        <a href="#" class="text-dark fs-4">📺</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Evenementen -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Komende Evenementen</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Kledingruil Festival</h5>
+                            <p class="card-text mb-2"><strong>Datum:</strong> 15 mei 2025</p>
+                            <p class="card-text mb-2"><strong>Locatie:</strong> Westergasfabriek, Amsterdam</p>
+                            <p class="card-text">Breng je ongedragen kleding mee en ga naar huis met nieuwe schatten! Met workshops, sprekers en muziek.</p>
+                            <a href="#" class="btn btn-sm btn-success mt-2">Meer Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Workshop Kleding Repareren</h5>
+                            <p class="card-text mb-2"><strong>Datum:</strong> 28 mei 2025</p>
+                            <p class="card-text mb-2"><strong>Locatie:</strong> Bibliotheek, Utrecht</p>
+                            <p class="card-text">Leer basisvaardigheden om je eigen kleding te repareren en op te knappen. Neem je eigen items mee!</p>
+                            <a href="#" class="btn btn-sm btn-success mt-2">Meer Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="mb-3">KledingBewust</h4>
+                    <p>Samen tegen kledingverspilling voor een duurzamere toekomst.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="mb-3">Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#over-ons" class="text-white">Over Ons</a></li>
+                        <li><a href="#tips" class="text-white">Tips</a></li>
+                        <li><a href="#inspiratie" class="text-white">Inspiratie</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="mb-3">Nieuwsbrief</h4>
+                    <p>Meld je aan voor onze nieuwsbrief</p>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Je e-mailadres">
+                            <button class="btn btn-warning" type="button">Aanmelden</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4 bg-light">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 KledingBewust. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
