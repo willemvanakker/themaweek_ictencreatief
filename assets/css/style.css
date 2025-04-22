@@ -35,11 +35,6 @@
     padding: 50px 0;
 }
 
-.shadow-hover:hover {
-    transition: ease-in-out;
-}
-
-
 .counter {
     transition: color 0.3s;
 }
