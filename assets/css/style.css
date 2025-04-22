@@ -47,3 +47,12 @@
 .counter.highlighted {
     color: #28a745 !important;
 }
+
+.shadow {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.shadow:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
