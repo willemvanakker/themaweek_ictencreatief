@@ -14,7 +14,7 @@
 
 .feature-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
@@ -35,6 +35,15 @@
     padding: 50px 0;
 }
 
-.shadow {
+.shadow-hover:hover {
     transition: ease-in-out;
+}
+
+
+.counter {
+    transition: color 0.3s;
+}
+
+.counter.highlighted {
+    color: #28a745 !important;
 }
